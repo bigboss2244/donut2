@@ -1,0 +1,136 @@
+:root{
+  --main-color: #ffc4f4;
+  --nav-color: #ffc4f4;
+  --bg-color: #f3f3e8;
+  --black: #544251;
+  --card-color: #FFD639;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+
+
+body{
+    background-color: var(--bg-color);
+    height: 100%;
+    position: relative;
+}
+
+.header{
+  background-color: var(--nav-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 20%;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height: 16vh;
+
+}
+
+.header .logo img{
+  height: 8rem;
+}
+
+.header .navbar a{
+  color: black;
+  font-size: 1.8rem;
+  margin: 0.1rem;
+  padding: 40px;
+
+}
+
+.header .navbar a:hover{
+  color: var(--black);
+  border-top: .3rem solid var(--black);
+  border-bottom: 0.3rem solid var(--black);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+  margin-top: 16vh;
+  background-color: #E9D758;
+  background-image: url(pink_doughnut.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .hero{
+  width: 60rem;
+}
+
+.home .hero h1{
+  font-size: 15rem;
+  color: #fff;
+  font-family: "Oooh Baby", sans-serif;
+  padding-top: 10px;
+  padding-left: 585px;
+  padding-bottom: 20px;
+  text-indent: -2.4em;
+  text-shadow: 2px 2px 3px rgb(12, 9, 9);
+}
+
+
+.home .hero p{
+  font-size: 2rem;
+  line-height: 1.8rem;
+  color: #eee;
+  text-shadow: 2px 2px 3px rgb(12, 9, 9);
+
+}
+
+.title{
+  text-shadow: 5px 5px 0 var(--card-color);
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 3.5rem 0;
+  font-size: 4rem;
+}
+
+/* donut section */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  width: 10%;
+}
+
+.menu-card{
+  background-color: var(--card-color);
+  padding: 3rem, 2rem;
+  text-align: center;
+
+}
+.menu-card img{
+  width: 100%;
+}
+
+.menu-card h2{
+  color: #000000;
+  font-size: 2rem;
+  padding: 1rem, 0;
+
+}
