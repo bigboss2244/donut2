@@ -12,7 +12,7 @@ body {
     padding: 0px;
     text-decoration: none;
     vertical-align: baseline;
-    background-image: url(donuts.jpg);
+    background-image: url(donut2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -25,3 +25,5 @@ article{
     color: turquoise;
     text-shadow: white 10px -20px 10px;
     }
+
+    
