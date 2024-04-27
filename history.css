@@ -21,11 +21,9 @@ body {
     }
 h1 {
     color: turquoise;
-    text-shadow:  white 2px -2px 2px;
     }
 article{
     color: turquoise;
-    text-shadow: white 2px -2px 2px;
     }
     .dropdown button {background-color: white;
     color:blue;
