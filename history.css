@@ -1,1 +1,16 @@
+html{ font-size: 50px;
+font-family: cursive;
+color:black;
+margin: center;
+background-color: blanchedalmond;}
 
+body {
+    font-family: cursive;
+    font-size: 100%;
+    font-weight: 80%;
+    line-height: 1em;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    vertical-align: baseline;
+ }
