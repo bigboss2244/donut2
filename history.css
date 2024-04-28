@@ -13,14 +13,15 @@ body {
     text-decoration: none;
     vertical-align: baseline;
     background-image: url(donuts2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat:no-repeat; 
+    background-position:center;
     background-attachment: fixed;
     box-shadow: 10px 10px 50px rgb(51,51,51),
                -10px -10px 50px rgb(51,51,51);
     }
+ 
 h1 {
-    color: turquoise;
+    color: white;
     }
 article{
     color: turquoise;

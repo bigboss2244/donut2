@@ -1,1 +1,14 @@
-
+header{ font-size: 50px;
+    font-family: cursive;
+    margin: center;
+    background-color: pink;}
+    
+    body {
+        color: turquoise;
+        background-color:darkorchid;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1020px;
+        min-width: 640px;
+    }
+    
